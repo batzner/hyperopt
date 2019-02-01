@@ -32,7 +32,7 @@ EPS = 1e-12
 
 # -- default linear forgetting. don't try to change by writing this variable
 # because it's captured in function default args when this file is read
-DEFAULT_LF = 25
+DEFAULT_LF = 50
 
 
 adaptive_parzen_samplers = {}
@@ -786,7 +786,7 @@ _default_n_EI_candidates = 24
 # -- gamma * sqrt(n_trials) is fraction of to use as good
 _default_gamma = 0.25
 
-_default_n_startup_jobs = 20
+_default_n_startup_jobs = 100
 
 _default_linear_forgetting = DEFAULT_LF
 

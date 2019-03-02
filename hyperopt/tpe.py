@@ -32,7 +32,7 @@ EPS = 1e-12
 
 # -- default linear forgetting. don't try to change by writing this variable
 # because it's captured in function default args when this file is read
-DEFAULT_LF = 50
+DEFAULT_LF = 25
 
 
 adaptive_parzen_samplers = {}
